@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
