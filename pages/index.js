@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 import NextLink from 'next/link'
 import {
   Container,
@@ -24,7 +25,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I'm a full-stack developer based in VietNam!
+          Hello, I&apos;m a full-stack developer based in VietNam!
         </Box>
 
         <Box display={{ md: 'flex' }}>
