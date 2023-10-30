@@ -1,4 +1,3 @@
-/* eslint react/no-unescaped-entities */
 import NextLink from 'next/link'
 import {
   Container,
