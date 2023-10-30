@@ -120,7 +120,7 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/kitkas0000/thenecocodes-homepage"
                 >
                   View Source
                 </MenuItem>
