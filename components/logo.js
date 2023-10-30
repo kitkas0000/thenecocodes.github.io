@@ -12,14 +12,19 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
 
-  &:hover svg {
+  > svg {
+    transition: 200ms ease;
+  }
+
+  &:hover > svg {
     transform: rotate(20deg);
   }
 `
 
 const Logo = () => {
   return (
-    <Link href="/" scroll={false}>
+    (<Link href="/" scroll={false}>
+
       <LogoBox>
         <FootprintIcon />
         <Text
@@ -28,11 +33,12 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Neco
+          Takuya Matsuyama
         </Text>
       </LogoBox>
-    </Link>
-  )
+
+    </Link>)
+  );
 }
 
 export default Logo
